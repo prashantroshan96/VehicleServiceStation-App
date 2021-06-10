@@ -1,0 +1,22 @@
+<div class="app">
+    <div class="header">
+        <div>
+            <h1 routerLink="">Vehicle Service Station</h1>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="nav">
+            <a routerLink="customer" routerLinkActive="active">Customer</a>
+            <a routerLink="vehicle" routerLinkActive="active">Vehicle</a>
+            <a routerLink="jobCard" routerLinkActive="active">JobCard</a>
+            <a routerLink="service" routerLinkActive="active">Service</a>
+            <a routerLink="bill" routerLinkActive="active">Bill</a>
+            <a routerLink="employee" routerLinkActive="active">Employee</a>
+        </div>
+        <div class="content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <notifier-container></notifier-container>
+</div>

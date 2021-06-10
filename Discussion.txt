@@ -1,0 +1,34 @@
+Vehicle Service Station:-
+
+Steps:-
+
+1) customer visits service centre
+2) customer asks for service
+3) Employee asks for faults
+4) employee 
+
+Module-
+1) Customer  	--  	{Submit Issues, show_status, Feedback, Payment}
+2) Employee 	--  	{Generate job card, update job card, bill generation}
+3) Mechanic 	-- 	{washing,servicing, update bill}
+4) stockist 	--	{provide parts, update bill}
+
+(Servicing)
+registration number put krenge.
+if exists, servicing button appears
+else, register new customer.
+(route) to servicing.
+
+GenerateJobCard{
+
+}
+
+Frontend:-
+Angular, ts, css/(bootstrap), html 5.				{React/Angular/Vu}
+
+Backend:-
+SpringBoot, MySQL.
+
+
+Customer - new customer save, customer list, customer update, customer delete
+
